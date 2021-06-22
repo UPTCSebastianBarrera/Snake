@@ -100,11 +100,7 @@ public class SnakePanel extends JPanel implements KeyListener ,ActionListener{
    
     public void draw(Graphics g ){
         
-        /*for(int i=0;i<height/unitsize;i++){
-            g.drawLine((i*unitsize), 0,(i*unitsize) , height);
-            g.drawLine(0, (i*unitsize),width , (i*unitsize));
-            
-        }*/
+        
         
         g.setColor(new Color(255,102,102));
         g.fillOval(applex, appley, unitsize, unitsize);
