@@ -28,7 +28,7 @@ public class SnakePanel extends JPanel implements KeyListener ,ActionListener{
         
         int height = (int) scSize.width/2;
         int width = (int) scSize.width/2;
-        int gridSize= 20;
+        int gridSize= 10;
         int unitsize=(int) width/gridSize;
         int applex;
         int appley;
